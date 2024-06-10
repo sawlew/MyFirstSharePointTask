@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "18.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "speed-point-test",
+    "libraryId": "6074f10a-de8f-4213-bbc0-e49d6b2674ba",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SpeedPointTest",
+    "solutionShortDescription": "SpeedPointTest description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

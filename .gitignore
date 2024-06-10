@@ -1,0 +1,81 @@
+# Ignore SharePoint project files
+*.log
+*.snk
+*.user
+*.pfx
+
+# Ignore Visual Studio files
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.*
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+ipch/
+*.dbmdl
+*.jfm
+*.pdb
+*.obj
+*.ipch
+*.tlog
+*.lastbuildstate
+*.vspscc
+*.vssscc
+vssver.scc
+_ts
+
+# Ignore build directories
+build/
+out/
+dist/
+node_modules/
+
+# Ignore npm package files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore configuration files
+*.config
+*.config.js
+
+# Ignore Office cache files
+~$*
+
+# Ignore deployment packages
+*.app
+*.wsp
+*.sppkg
+
+# Ignore local development environments
+.env
+.local
+
+# Ignore specific SharePoint framework (SPFx) files
+config/config.json
+config/deploy.json
+temp/deploy/
+sharepoint/
+config/
+
+# Ignore SharePoint framework (SPFx) npm packages
+node_modules/
+
+# Ignore gulp file temporary data
+coverage/
+dist/
+lib/
+temp/
+typings/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
